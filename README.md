@@ -15,8 +15,8 @@ R shinyパッケージを用いています。
 手順２：　chrome拡張機能の1つ「GitZip for github」(注釈１,２)を追加する。  
 手順３：　GitZip for githubを用いて、ご希望のwebアプリのソースコードが入ったフォルダを丸ごと取得する。  
 
-注釈１：　まだGitZip for githubを追加されていない方は、こちらからchromeに追加してください。[GitZip for github](https://gitzip.org/)  
-注釈２：　GitZip for githubの使い方がわからない方はこちらから。[GitZip for githubの使い方](https://baba-s.hatenablog.com/entry/2019/09/09/070800)  
+注釈１：　まだGitZip for githubを追加されていない方は、[こちら](https://gitzip.org/)からchromeに追加してください。
+注釈２：　GitZip for githubの使い方がわからない方は[こちら](https://baba-s.hatenablog.com/entry/2019/09/09/070800)から。    
 
 ※githubに普段から慣れていらっしゃる方は、通常通りソースコードを取得されてください。
 
@@ -28,7 +28,7 @@ R shinyパッケージを用いています。
 手順３：　▶︎ Run Appを押す(真ん中上部にあると思います)。  
 たった3つのステップで、皆様のPC画面でwebアプリと同様の操作ができます。  
   
-注釈１：　Rstudioをお持ちでない方は、こちらから。無料です。[Rstudioのダウンロード](https://rstudio.com/products/rstudio/download/)。
+注釈１：　Rstudioをお持ちでない方は、[こちら](https://rstudio.com/products/rstudio/download/)から。無料です。  
 
 ---
 
