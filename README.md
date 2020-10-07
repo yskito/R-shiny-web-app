@@ -11,7 +11,7 @@ R shinyパッケージを用いています。
 ご希望のフォルダを、zipファイルとして丸ごとダウンロードされてください。  
   
 ちなみに、おすすめのダウンロード方法は、以下の通りです。  
-手順１：　ブラウザchromeで[このページ](https://github.com/yskito/R_shiny_web_app_japanese)を開く。  
+手順１：　ブラウザchromeで[今のページ](https://github.com/yskito/R_shiny_web_app_japanese)を開く。  
 手順２：　GitZip for github(注釈１,２)で、ご希望のフォルダを丸ごとダウンロードする。  
 
 注釈１：　まだGitZip for githubを追加されていない方は、[こちら](https://gitzip.org/)からchromeに追加してください。  
