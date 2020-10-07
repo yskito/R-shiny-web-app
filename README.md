@@ -24,7 +24,7 @@ R shinyパッケージを用いています。
 ### ソースコード取得後はどうwebアプリと同じような操作ができるの？
 手順１：　取得したzipファイルを開いてください。  
 手順２：　ui_server.Rファイルを、ソフトウェアRstudioで開く。  
-　　　　　参考：　Rstudio持っていない方は、こちらから。[Rstudioのダウンロード](https://rstudio.com/products/rstudio/download/)。無料です。
+　　　　　参考：　Rstudio持っていない方は、こちらから。[Rstudioのダウンロード](https://rstudio.com/products/rstudio/download/)。無料です。  
 手順３：　▶︎ Run Appを押す(真ん中上部にあると思います)。  
   
 たった3つのステップで、皆様のPC画面でwebアプリと同様の操作ができます。
