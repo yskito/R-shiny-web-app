@@ -28,8 +28,7 @@ R shinyパッケージを用いています。
 手順３：　▶︎ Run Appを押す(真ん中上部にあると思います)。  
 たった3つのステップで、皆様のPC画面でwebアプリと同様の操作ができます。  
   
-注釈１：　Rstudioをお持ちでない方は、こちら↓から。無料です。  
-[Rstudioのダウンロード](https://rstudio.com/products/rstudio/download/)。
+注釈１：　Rstudioをお持ちでない方は、こちらから。無料です。[Rstudioのダウンロード](https://rstudio.com/products/rstudio/download/)。
 
 ---
 
