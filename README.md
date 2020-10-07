@@ -1,13 +1,11 @@
-## R_shiny_web_app
----
-
-### What is this repository?
-This repository has R files for web application developed by R shiny package.  
+### このリポジトリは何？
+このリポジトリには、R shinyパッケージを用いてwebアプリを開発するためのRファイルがあります。日本語バージョンです。
 
 ---
 
-### Caution
-R files are basically divided into ui.R and server.R, but it's quite difficult to read and understand source codes.  
-For this reason, each file in my repository includes not only ui.R but also server.R (e.g., my file name is ui_server.R).  
+### 注意事項
+通常shinyパッケージを用いたRファイルは、ui.Rとserver.Rで構成されます。しかし分量が多くなると非常に可読性が低下し理解しにくくなります。  
+そのために、このリポジトリにあるRファイルは両方の内容を含み、その他のRファイルから構成されます。
+なお、shinyAppで実装できます。
 
 ---
