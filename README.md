@@ -7,11 +7,11 @@ R shinyパッケージを用いています。
 
 ### どうやってソースコードダウンロードするの？
 ご希望のフォルダ丸ごとzipファイルとしてダウンロードされてください。  
-おすすめの方法は、以下の通りです。
-手順１：　ブラウザchromeでこのページを開く。[R_shiny_web_app_japanese]()
+おすすめの方法は、以下の通りです。  
+手順１：　ブラウザchromeでこのページを開く。[R_shiny_web_app_japanese](https://github.com/yskito/R_shiny_web_app_japanese)  
 手順２：　chrome拡張機能の1つ「GitZip for github」を追加する。[GitZip for github](t.ly/J3Lf)  
 　　　　参照：　[GitZip for githubの使い方](https://baba-s.hatenablog.com/entry/2019/09/09/070800)  
-手順3：　GitZip for githubを用いて、取得する。
+手順3：　GitZip for githubを用いて、取得する。  
 
 ※githubに慣れていらっしゃる方は、通常通りgitを介してソースコードを取得されてください。
 
