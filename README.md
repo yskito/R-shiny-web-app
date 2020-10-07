@@ -11,7 +11,7 @@ R shinyパッケージを用いています。
 ご希望のフォルダを、zipファイルとして丸ごとダウンロードされてください。  
   
 ちなみに、おすすめのダウンロード方法は、以下の通りです。  
-手順１：　ブラウザchromeでこのページを開く。[R_shiny_web_app_japanese](https://github.com/yskito/R_shiny_web_app_japanese)  
+手順１：　ブラウザchromeで[このページ](https://github.com/yskito/R_shiny_web_app_japanese)を開く。    
 手順２：　chrome拡張機能の1つ「GitZip for github」(注釈１,２)を追加する。  
 手順３：　GitZip for githubを用いて、ご希望のwebアプリのソースコードが入ったフォルダを丸ごと取得する。  
 
@@ -28,7 +28,7 @@ R shinyパッケージを用いています。
 手順３：　▶︎ Run Appを押す(真ん中上部にあると思います)。  
 たった3つのステップで、皆様のPC画面でwebアプリと同様の操作ができます。  
   
-注釈１：　Rstudioをお持ちでない方は、[こちら](https://rstudio.com/products/rstudio/download/)から。無料です。  
+注釈１：　Rstudioをお持ちでない方は、[こちら](https://rstudio.com/products/rstudio/download/)からダウンロードできます。無料です。  
 
 ---
 
