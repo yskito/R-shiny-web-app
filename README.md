@@ -10,9 +10,10 @@ R shinyパッケージを用いています。
   
 ちなみに、おすすめのダウンロード方法は、以下の通りです。  
 手順１：　ブラウザchromeでこのページを開く。[R_shiny_web_app_japanese](https://github.com/yskito/R_shiny_web_app_japanese)  
-手順２：　chrome拡張機能の1つ「GitZip for github」を追加する。まだ追加されていない方はこちらから。[GitZip for github](https://gitzip.org/)  
-　　　　　参照：　[GitZip for githubの使い方](https://baba-s.hatenablog.com/entry/2019/09/09/070800)  
-手順３：　GitZip for githubを用いて、取得する。  
+手順２：　chrome拡張機能の1つ「GitZip for github」を追加する。  
+　　　　　まだGitZip for githubを追加されていない方は、こちらからchromeに追加してください。[GitZip for github](https://gitzip.org/)  
+　　　　　GitZip for githubの使い方がわからない方はこちらから。[GitZip for githubの使い方](https://baba-s.hatenablog.com/entry/2019/09/09/070800)  
+手順３：　GitZip for githubを用いて、ご希望のwebアプリのソースコードが入ったフォルダを丸ごと取得する。  
 
 ※githubに普段から慣れていらっしゃる方は、通常通りgitを介してソースコードを取得されてください。
 
