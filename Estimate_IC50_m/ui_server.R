@@ -1,19 +1,21 @@
+# This is a test: 2020/10/06
+
 #============================
 # Setting
 #============================
 rm(list=ls(all=TRUE));
-require( shiny ); require( shinydashboard ); require( shinycssloaders ); 
-require( openxlsx ); 
+require( shiny ); require( shinydashboard ); require( shinycssloaders );
+require( openxlsx );
 require( stringr );
 require( ggplot2 ); require(scales);
-require( png ); 
-require( MASS ); 
+require( png );
+require( MASS );
 
 #============================
 # Read other R file
 #============================
 setwd("./r_file");
-R_file = list.files( pattern = ".R"); 
+R_file = list.files( pattern = ".R");
 lapply( 1:length(R_file), function( i ){ source( R_file[i] ); } );
 setwd("../");
 
@@ -48,7 +50,7 @@ ui <- dashboardPage(
    dashboardSidebar( sidebar_menu ),
    dashboardBody　 ( colorDIY,  body )
 )
-         
+
 #============================
 # Server
 #============================
@@ -56,15 +58,15 @@ server <- function(input, output, session){
 
    # header dropdown
    server_dropdown(input, output, session)
-   
+
    # Tab: home
    server_home(input, output, session)
-   
+
    #===== Server setting =====#
    ans <- reactiveValues()
 
    filepath = reactive({
-      req(input$file1) 
+      req(input$file1)
       file <- input$file1;
       return(file$datapath)
    })
@@ -74,16 +76,16 @@ server <- function(input, output, session){
       ans$filename  <- input$file1$name
       ans$head_data <- 10;
    })
-    
+
    # Tab: import_file
    server_import_file(input, output, session, ans, filepath)
-   
+
    # Tab: estimation
    server_estimation(input, output, session, ans, filepath)
-   
+
    # Tab: IC50_90_99
    server_IC50_90_99(input, output, session, ans, filepath )
-   
+
    # Tab: about_me
    server_about_me(input, output, session)
 }
@@ -92,4 +94,3 @@ server <- function(input, output, session){
 # Show Dashboard
 #============================
 shinyApp(ui, server)
-
