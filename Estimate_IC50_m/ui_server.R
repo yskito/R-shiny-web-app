@@ -21,7 +21,8 @@ setwd("../");
 # ui
 #============================
 # Header
-Header_title = "Estimate IC50 and m";
+#Header_title = "Estimate IC50 and m";
+Header_title = "XXXXXXXX";
 
 # Sidebar
 sidebar_menu = sidebarMenu(
