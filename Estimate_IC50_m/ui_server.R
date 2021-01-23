@@ -30,19 +30,13 @@ sidebar_menu = sidebarMenu(
    menuItem( "ホーム",        tabName = "home",        icon = icon("home")),
    menuItem( "データ可視化",  tabName = "import_file", icon = icon("file-upload"), badgeLabel = "new",     badgeColor = "green"),
    menuItem( "IC50とmの推定", tabName = "estimation",  icon = icon("diagnoses")  , badgeLabel = "new",     badgeColor = "green" )
-   #menuItem( "IC90,99の推定", tabName = "IC50_90_99",  icon = icon("calculator") , badgeLabel = "not yet", badgeColor = "purple"),
-   #menuItem( "理論的背景",    tabName = "background",  icon = icon("history"),     badgeLabel = "not yet", badgeColor = "purple")
-   #menuItem( "webアプリ一覧", tabName = "about_me",    icon = icon("user-tie"))
 )
 
 # Body
 body = tabItems(
    tabItem( tabName = "home",           home ),
-   tabItem( tabName = "background",     background    ),
    tabItem( tabName = "import_file",    import_file    ),
-   tabItem( tabName = "estimation",     estimation    ),
-   #tabItem( tabName = "IC50_90_99",     IC509099    ),
-   tabItem( tabName = "about_me",       about_me)
+   tabItem( tabName = "estimation",     estimation    )
 )
 
 ui <- dashboardPage(
